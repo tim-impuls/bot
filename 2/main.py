@@ -5,6 +5,7 @@ import os
 load_dotenv()# загрузка
 bot = Bot(os.getenv('TOKEN'))
 dp = Dispatcher(bot=bot)
+print(7)
 
 
 @dp.message_handler(commands=['start'])
